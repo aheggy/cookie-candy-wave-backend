@@ -36,7 +36,7 @@ const createProduct = async (product) => {
         product.price,
         product.last_updated,
         product.url,
-        product.is_favorit,
+        product.is_favorite,
       ]
     );
     return newProduct
@@ -71,7 +71,7 @@ const updateProduct = async (id, product) => {
           product.price,
           product.last_updated,
           product.url,
-          product.is_favorit,
+          product.is_favorite,
           id,
         ]
       );
